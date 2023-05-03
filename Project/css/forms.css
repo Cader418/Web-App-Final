@@ -1,0 +1,39 @@
+body{
+    background-color: #F3EAF4 ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.main-card{
+    overflow: hidden;
+    padding: 20px 40px;
+    margin: 0 auto 0 auto ;
+    width: 80%;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+select{
+    border-radius: 23px;
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'DIN Alternate', Courier, monospace;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}

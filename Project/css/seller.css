@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    height: 80px;
+    width: 800px;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 0px !important;
+}
+.bottom{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(163, 42, 42);
+    border-radius: 0% 0% 10px 10px ;
+}
+
+.list-container{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+.list-header{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+.content{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px 10px 0% 0%;
+    justify-content: center;
+}
+.content .picture{
+    width: 80px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('../img/products/bottle.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content .name{
+    flex-grow: 1;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+.max-lines {
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+  }
+.content .price{
+    width: 9%;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+}
+.content .sold-to{
+    width: 21%;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+}
+.content .available{
+    width: 8%;
+    align-self: center;
+}
+.content .edit{
+    width: 7%;
+    display: flex;
+    align-self: center;
+}
+.contents {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sub_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.new_item{
+    cursor: pointer;
+    border-radius: 23px;
+    background-color: #FF8B8B;
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'DIN Alternate', Courier, monospace;
+    border: none;
+    padding: 5px 24px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: right;
+    margin-top: 12px;
+}

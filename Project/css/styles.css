@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', Courier, monospace;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh !important;
+}
+.footer_div{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+}
+hr {
+    border: 1;
+    border-top: 2px solid rgb(131, 131, 131) !important;
+}
+
+.contents{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.subtext{
+    margin: 0px;
+    padding-top: 16px;
+    font-family: 'Roboto', Times, serif;
+    font-size: 30px;
+    opacity: 30%;
+}
+
+.product-card{
+    width: 240px;
+    height: 290px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition-duration: 100ms;
+    display: flex;
+    flex-direction: column;
+}
+.product-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.product-card-img{
+    width: 240px;
+    max-width: 240px;
+    height: 200px;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #ffffff 35%, #F3EAF4 100%);
+    background-repeat: space;
+    background-size:contain;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    justify-self: center;
+    align-self: center;
+}
+.card-price{
+    float: right;
+    font-size: 24px;
+}
+.product-card-img-div{
+    width: 240px !important;
+    height: 200px !important;
+    background-color: blue;
+    /* background-size: cover; */
+    /* background-image: url('../img/products/tshirt.webp'); */
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content img{
+    width: 15px;
+    height: 15px;
+}
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 40px;
+    /* padding: 10px; */
+}
+input{
+    width: 500px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(108, 108, 108);
+}
+
+.active_btn{
+    cursor: pointer;
+    border-radius: 23px;
+    background-color: #FF8B8B;
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'DIN Alternate', Courier, monospace;
+    border: none;
+    padding: 5px 24px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: right;
+}
+.cancelbtn{
+    background-color: rgb(255, 255, 255); 
+    color: #ffc0c0;
+    border: 2px solid #ffc0c0;
+}
+.cancelbtn:active{
+    background-color: #fff1f1;
+}
+.deletebtn{
+    background-color: rgb(246, 86, 86) !important; 
+    color: #ffeeee;
+    border: 2px solid #ffffff;
+}
+.deletebtn:active{
+    background-color: #fff1f1;
+}
+.nobtnstyle{
+    border: none;
+    background-color: none;
+    background: none;
+    color: #4f3030;
+}
+.nobtnstyle:hover{
+    color: #FF8B8B;
+}
+
+.fade-in{
+    animation: transitionIn 1000ms;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}

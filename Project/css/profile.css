@@ -1,0 +1,130 @@
+
+body{
+    background-color: #F3EAF4 ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh !important;
+    margin: 0px !important;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+
+.main-card{
+    overflow: hidden;
+    padding: 20px 40px;
+    margin: 0 auto 0 auto ;
+    width: 80%;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    font-family: 'Roboto', Courier, monospace;
+    float: right;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    flex: 1;
+    row-gap: 30px;
+}
+
+.item1{
+    width: 250px;
+    /* background-color: aquamarine; */
+}
+.item2{
+    height: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    /* background-color: rgb(197, 9, 231); */
+}
+.item3{
+    width: 250px;
+    /* background-color: rgb(163, 127, 255); */
+}
+.item4{
+    width: 250px;
+    /* background-color: rgb(179, 12, 23); */
+}
+.container1 input{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    padding-top: 7px;
+    margin-bottom: 14px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.278);
+}   
+
+.pfp{
+    display: inline-block;
+    width: 210px;
+    height: 210px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 50%;
+    border: 1px solid #f9000065;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.nobtnstyle{
+    border: none;
+    background-color: none;
+    background: none;
+    color: #4f3030;
+}
+.nobtnstyle:hover{
+    color: #FF8B8B;
+}
+
+.submitbtn{
+    cursor: pointer;
+    border-radius: 23px;
+    background-color: #FF8B8B;
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'DIN Alternate', Courier, monospace;
+    border: none;
+    padding: 5px 24px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: right;
+    margin: 5px;
+}
+.submitbtn:hover{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.submitbtn:active{
+    background-color: #ffc0c0;
+}
+
+.cancelbtn{
+    background-color: rgb(255, 255, 255); 
+    color: #ffc0c0;
+    border: 2px solid #ffc0c0;
+}
+.cancelbtn:active{
+    background-color: #fff1f1;
+}
+
+.box-case{
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 40px; 
+    justify-content: flex-end;
+}

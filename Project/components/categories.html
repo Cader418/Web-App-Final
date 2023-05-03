@@ -1,0 +1,11 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<div class="banner sticky-top" ng-controller="categoriesCtrl">
+    <form action="product_search.php" method="GET">
+        <ul style="display: flex; justify-content: center; align-content: center; gap: 16px;">
+            <li class="menu-item" ng-repeat="x in Categories">
+                <button class="nobtnstyle" style="color:white;" type="submit" name="category" value="{{x.name}}" >{{x.name}}</button>
+            </li>
+        </ul>
+    </form>
+</div>

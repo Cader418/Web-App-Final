@@ -1,0 +1,234 @@
+p1{
+    line-height: 10px;
+}
+select{
+    width: 75%;
+}
+.btn{
+    margin-top: 20px;
+    width: 75%;
+    height: 40px;
+    background-color: #ff6a6a;
+    color: white;
+    border-radius: 3px;
+    border-width: 1px;
+}
+.btn:hover{
+    background-color: #E5CEDC;
+}
+.remBtn{
+    margin: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: #E5CEDC;
+    border-radius: 3px;
+    border-width: 1px;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+}
+.remBtn:hover{
+    background-color: #A14DA0;
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.cHeader{
+    width: 100%;
+    background-color: black;
+    color:white;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.itemInfo{
+    display: hidden;
+}
+.page{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+}
+.pageOpt{
+    position: relative;
+    width: 33.3%;
+    height: 100% - 50px;
+    background-color: white;
+    margin: 50px;
+}
+.pageOptScroll{
+    position: relative;
+    width: 66.6%;
+    height: 550px;
+    background-color: white;
+    margin: 50px;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 10px;
+    overflow-y: scroll;
+    display:inline;
+    flex-wrap: wrap;
+    
+}
+.pageOptScrollOpt{
+    background-color: #F3EAF4;
+    box-shadow: 0px 0px 5px grey;
+    margin: 30px;
+    height: 115px;
+    width: 100%-60px;
+    border-radius: 10px;
+    overflow:hidden;
+    white-space : nowrap;
+    position: relative;
+}
+.pageOptScrollOptImg{
+    display:inline-block;
+    height: 95px;
+}
+.pageOptScrollOptName{
+    margin-left:10px;
+    height: 25px;
+    width: 55%;
+    display:inline-block;
+    vertical-align: top;
+}
+.pageOptScrollOptLeftSide{
+    padding:10px;
+    height: 95px;
+    width: 350px;
+    display:inline-block;
+    vertical-align: top;
+}
+.pageOptScrollOptRightSide{
+    padding:10px;
+    height: 95px;
+    width: 110px;
+    position:relative;
+    display:inline-block;
+}
+.pageOptScrollOptPrice{
+    margin:10px;
+    height: 25px;
+    width: 100px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align: left;
+}
+
+/* item-info */
+h2{
+    margin-bottom: 0px;
+    margin-top:0px;
+    font-size: 32px;
+}
+p2{
+    font-weight: bold;
+}
+.addBtn{
+    width: 75%;
+    height: 40px;
+    background-color: #F3EAF4;
+    border-radius: 3px;
+    border-width: 1px;
+    margin:auto;
+}
+.addBtn:hover{
+    background-color: #E5CEDC;
+}
+.hiddenPage{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    display: none;
+}
+.pageOptLeft{
+    position: relative;
+    width: 40%;
+    height: 100% - 50px;
+    background-color: white;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+    overflow: hidden;
+}
+.pageOptLeftImg{
+    width: 290px;
+    margin:30px;
+}
+.pageOptLeftImgImg{
+    width: 290px;
+}
+.pageOptLeftScroll{
+    width: 100%;
+    background-color: gainsboro;
+    margin-top: 30px;
+    margin-bottom:30px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.pageOptLeftScrollImg{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px grey;
+    width: 50px;
+    margin:5px;
+}
+.pageOptRight{
+    position: relative;
+    width: 60%;
+    height: 550px;
+    margin: 50px;
+    display:inline;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+.pageOptRightTop{
+    width:100%;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.pageOptRightTopDsc{
+    margin-top:20px;
+    width: 100%;
+    overflow:hidden;
+}
+.pageOptRightTopBtn{
+    width: 100%;
+    height: 100px;
+    display:grid;
+}
+.pageOptRightBottom{
+    height:150px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.category{
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    padding:auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

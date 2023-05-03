@@ -1,0 +1,159 @@
+body{
+    font-family: 'DIN Alternate', Courier, monospace;
+    background-size: auto;
+    min-height: 100vh;
+    background-color: #191D32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#191D32 !important;
+    /* background-image: url('../img/others/bg2.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(0deg, #5f1942 1%, #191D32  24%); */
+}
+
+button{
+    cursor: pointer;
+    border-radius: 23px;
+    background-color: lightsalmon;
+    width: 314px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'DIN Alternate', Courier, monospace;
+    padding: 10px 20px;
+    border: none;
+    transition-property: color background;
+    transition-duration: 200ms;
+}
+button:hover{
+    background-color: salmon;
+    color: aliceblue;
+}
+
+.outerTable{
+    border-radius: 25px;
+}
+input{
+    width: 300px !important;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(108, 108, 108);
+}
+.input-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.password-input{
+    width: 260px !important;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(108, 108, 108);
+    border-style: solid none solid solid
+}
+.show-password{
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px !important;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid rgb(108, 108, 108);
+}
+
+.rowbox{
+    display: flex;
+    flex-direction: row;
+    transition: height 1000ms ease;
+}
+
+.box{
+    width: fit-content;
+    display: flex;
+    margin-top: -70px;
+    flex-direction: column;
+    padding: 50px;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(45, 22, 7, 0.303);
+    /* transition: height 1000ms ease; */
+    animation: transitionIn 1000ms;
+}
+
+.btnText{
+    background-color: none;
+    border: none;
+    background: none;
+    font-size: 36px;
+    color: rgb(67, 40, 0);
+    margin-left: -50px;
+    margin-right: -50px;
+    transition-duration: 250ms;
+}
+.btnText:hover{
+    cursor: pointer;
+    color: darkkhaki;
+    background-color: none;
+    background: none;
+}
+label{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+.accessbtn{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.accessbtn a{
+    color: black;
+    transition-duration: 200ms;
+}
+.accessbtn a:hover{
+    color: salmon !important;
+
+}
+
+.login-section{
+    display: flex;
+    flex-direction: column;
+    transition: display 1000ms ease;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}
